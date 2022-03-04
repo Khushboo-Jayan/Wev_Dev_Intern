@@ -1,0 +1,30 @@
+body{
+	background-color: #80d4ff;
+}
+
+#frm{
+	border: solid black 2px;
+	width: 20%;
+	border-radius:5%;
+	margin:200px auto;
+	background: white;
+	padding:3%;
+}
+#btn{
+	color:#fff;
+	background: #337ab7;
+	padding:5px;
+	margin-left:69%;
+}
+#main{
+	width: 50%;
+}
+#signupfrm{
+	width: 50%;
+	border: solid black 1px;
+	margin-left:auto; 
+    margin-right:auto;
+	border-radius:5%;
+	background-color: white;
+	
+}
