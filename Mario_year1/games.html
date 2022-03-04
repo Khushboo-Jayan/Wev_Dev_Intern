@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<img id="logo" src= "D:\TU Dublin\Web_Development\Project\Assets\Images\logo.png"/>
+		<script src="Assets/Scripts/games.js"></script>
+		<link rel="stylesheet" href="site.css">
+		<title>Games</title>
+		<meta name="description" content="Khushboo's Programming gives some really intresting facts about Mario franchise using HTML5 CSS and JavaScript">
+		<meta name="keywords" content="HTML5 CSS JavaScript">
+	</head>
+	<body>
+	<header class="newTopic">
+		<p id="games"><img src="Assets\Images\games2.jpg"></p>
+		<nav>
+		<a href="index.html">HOME | </a>
+		<a href="about.html"> ABOUT | </a>
+		<a href="games.html"> GAMES | </a>
+		<a href="contact.html"> CONTACT | </a>
+		</nav>
+	</header>
+	<section id="main">
+		<h3>GAMES PAGE</h3>
+		
+		<p>
+		MARIO WAS A big part of our lives growing up. Well, he still kinda is.
+		Enjoy the wonderful and challenging world of Mario, the most famous plumber guy ever. There are many different genres, from the typical Mario Games to running races and even solving puzzles. You can companion with other famous game characters, like Luigi, Yoshi, or even Princess Peach in these adventures. We are happy that you have chosen to play all these famous games on Mario Games, the most dynamic site available.
+		</p>
+		<div  class="game">
+		<iframe src="https://funhtml5games.com?embed=mariokart" style="width:640px;height:400px;border:none;" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="game">
+		<iframe src="https://funhtml5games.com?embed=mariojump" style="width:755px;height:680px;border:none;" frameborder="0" scrolling="no"></iframe>
+		</div>
+		
+		
+		<div class="comment">
+			<form action = "server-script-url" name="regForm" onsubmit="return( message() );">
+				
+				<label><h2>Leave a comment: </h2></label>
+				<div>
+				<label>
+				<span>YOUR NAME:</span><span class="errorMessage" id="NameMessage"></span><br>
+				<input class="example" type="text" name="NAME" size="20">
+				</label>
+				</div>
+				<br>
+				
+				<div>
+				<label>
+				<span>YOUR EMAIL:</span><span class="errorMessage" id="EmailMessage"></span><br>
+				<input class="example" type="email" name="EMAIL" size="20">
+				</label>
+				</div>
+				<br>
+
+				
+				<div>
+				<label>
+				<span>YOUR MESSAGE:</span><span class="errorMessage" id="MessageMessage"></span><br>
+				<input class="example" type="text" name="MESSAGE" size="100">
+				</label>
+				</div>
+				<br>
+				<p id="submit"><input id="sent" type="submit" value="submit"></p>
+			</form>
+		</div>		
+			<div id="footerEdit">
+			<footer>
+				<p>Site by KHUSHBOO JAYAN &copy: 2020</p>
+			</footer>
+			</div>
+	</section>
+	</body>
+</html>

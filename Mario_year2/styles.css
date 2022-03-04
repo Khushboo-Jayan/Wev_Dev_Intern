@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+    }
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:#6cf;
+    padding: 25px;
+    text-align: center;
+    background-color: #cccccc;
+    height: 25px;
+  }
+#footerEdit{
+    background-color: #696969;
+    color:white;
+}
+#footerEdit p{
+    margin-right: 10px;
+    font-size: 17px;
+    color: black;
+}
+#logo{
+width: 70px;
+}
+
+#tribute{
+text-align: center;
+/* font-family: 'sans serif'; */
+font-weight : bold;
+font-size: 350%;
+color: #003380;
+font-family: 'Super Mario Bros';
+}
+
+
+#information1 p{
+float: left;
+text-align: justify;
+display: inline-block;
+}
+#forTable{
+margin: auto;
+width: 70%;
+height : auto;
+}
+table{
+    border: 2px white solid;
+    width : 600px;
+    margin: auto;
+    height: 40%;
+}
+table th, td{
+    text-align: center;
+    padding: 10%;
+}
+table img {
+    width: 70%;
+    /* text-align: justify; */
+}
+#row-1{
+    width: 100px;
+    padding: 0;
+}
+#main #tableHead{
+color: yellow;
+font-family: calibri;
+font-size: 140%;
+text-align: justify;
+}
+#main p{
+color: white;
+font-size: 1.2em;
+width : 75%;
+margin: auto;
+}

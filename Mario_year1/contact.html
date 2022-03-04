@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<img id="logo" src= "D:\TU Dublin\Web_Development\Project\Assets\Images\logo.png"/>
+		<link rel="stylesheet" href="site.css">
+		<script src="Assets/Scripts/script.js"></script>
+		<title>Contact Page</title>
+		<meta name="description" content="Khushboo's Programming gives some really intresting facts about Mario franchise using HTML5 CSS and JavaScript">
+		<meta name="keywords" content="HTML5 CSS JavaScript">
+	</head>
+	<body>
+	<header class="newTopic">
+			<p id="contactImg"><img src="Assets\Images\contact.png"/></p>
+		<nav>
+		<a href="index.html">HOME | </a>
+		<a href="about.html"> ABOUT | </a>
+		<a href="games.html"> GAMES | </a>
+		<a href="contact.html"> CONTACT | </a>
+		</nav>
+		</header>
+	<div id="sideLine" class="col-sm-2">
+				<img id="leftMenu" src="D:\TU Dublin\Web_Development\Project\Assets\Images\ver1.jpg" class="img-fluid"/>
+	</div>
+	<div id="sideLine2" class="col-sm-2">
+		<img id="leftMenu" src="D:\TU Dublin\Web_Development\Project\Assets\Images\ver1.jpg" class="img-fluid"/>
+	</div>
+	<div id="main">
+		<p id="headerDistance"><h3>CONTACT PAGE</h3></p>
+		<div class="row">
+			
+			
+			<div class="col-sm-8">
+					<div class= "contact">
+					<form action = "server-script-url" name="regForm" onsubmit="return( validate() );">
+						
+						
+							<div>
+							<label>
+							<span>Firstname:</span><span class="errorMessage" id="firstname"></span><br>
+							<input class="generalInput" type="text" name="firstname" size="120">
+							</label>
+							</div>
+							<br>
+							
+							<div>
+							<label>
+							<span>Lastname:</span><span class="errorMessage" id="lastname"></span><br>
+							<input class="generalInput" type="text" name="lastname" size="120">
+							</label>
+							</div>
+							<br>
+							
+							<div>
+							<label>
+							<span>Email:</span><span class="errorMessage" id="email"</span><br>
+							<input class="generalInput" type="email" name="email" size="120" required>
+							</label>
+							</div>
+							<br>
+							
+							<div>
+							<label>
+							<span>Date:</span><span class="errorMessage" id="Date"</span><br>
+							<input class="generalInput" type="date" name="Date" size="120" required>
+							</label>
+							</div>
+							<br>
+						
+						
+						<div>
+						<label>
+						<span>AGE GROUP</span><span class="errorMessage" id="age_category"></span><br>
+						<input type="radio" name="age" value="kids">4-12</input><br>
+						<input type="radio" name="age" value="teenagers">12-18</input><br>
+						<input type="radio" name="age" value="adults" checked>18 or above(Specify)<input type="text" id="age_category" name="age_category"></input><br>
+						</label>
+						</div>
+						
+						<br>
+						<br>
+						
+						<div id="suggestions">
+						<label>
+						<span>Any game Suggestions? If yes please mention!</span><span class="errorMessage" id="Suggest" ></span><br>
+						<input class="generalInput" type = "text" name = "Suggest" size="500"></input><br>
+						</label>
+						</div>
+						
+						<div>
+						<label>
+						<span>Which game would you recommend</span><span class="errorMessage" id="recommend" required></span><br>
+						<input type = "checkbox" name = "game" value = "marioKart">MARIO KART</input><br>
+						<input type = "checkbox" name = "game1" value = "marioJump">MARIO JUMP</input><br>
+						<input type = "checkbox" name = "game2" value = "supermario">SUPERMARIO</input><br>
+						</label>
+						</div>
+						
+						
+						
+						<p id="submit"><button type = "submit">Submit</button></p>
+						
+						</form>
+				</div>
+		</div>
+		<footer>
+			<p>Site by KHUSHBOO JAYAN &copy: 2020</p>
+		</footer>
+	</div>
+		
+	</body>
+</html>

@@ -1,0 +1,440 @@
+@media screen and (min-width: 400px){
+body{
+	background-color: red;
+}
+.topic{
+	background-color: blue;
+	width:75%;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 200%;
+	min-height: 160px;
+}
+#custom{
+	width: 200%;
+
+	
+}
+#logo{
+	width: 5%;
+}
+#sideLine img{
+	width: 14%;
+	float: right;
+}
+#sideLine2 img{
+	float: left;
+	width: 14%;
+	border-right: 85px red solid;
+}
+#forTable{
+	margin-left: 33%;
+}
+table{
+	border: 2px white solid;
+	text-align: center;
+}
+table th, td{
+	text-align: center;
+	padding: 15px;
+}
+#main #headerDistance h3 {
+	padding-left: 2em;
+}
+#leftMenu{
+	
+	display: inline-block;
+	margin-left: 0px;
+}
+#leftMenu iframe{
+	width: 50;
+}
+.topic a{
+	font-size: 60%;
+	color: white;
+	text-align: right;
+}
+#main{
+	width:75%;
+	margin: auto;
+	color: white;
+	font-size: 105%;
+}
+.topic{
+	padding-top: 0.3%;
+}	
+.newTopic {
+	text-align: center;
+}
+.newTopic img{
+	width:35%;
+}
+.newTopic a{
+	color: white;
+}
+.newTopic #contactImg img{
+	width:17%;
+}
+.newTopic #games img{
+	width:50%;
+}
+#main #tribute{
+	text-align: center;
+	font-family: cursive;
+	font-size: 200%;
+}
+.topic p{
+	text-decoration: underline;
+}
+.topic img{
+	width:35%;
+}
+#main p{
+	color: white;
+	font-size: 1.2em;
+}
+.game{
+	text-align: center;
+}
+.contact{
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 2px white solid;
+	font-size: 1.2em;
+}
+.contact div{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-top: 10px;
+}
+.contact #date{
+	padding-left: 20px;
+	margin-left:12.5em;
+	margin-top: 15px;
+}
+.contact #suggestions input{
+	margin-left:5px;
+}
+
+
+#main .div{
+	color: white;
+	text-decoration: bold;
+}
+#main .generalInput{
+	width: 50%;
+	display: block;
+	padding: 10px;
+	margin: auto;
+	border: 2px black solid;
+}
+#main .clickInput{
+	border: 1px black solid;
+	margin-bottom: 7px;
+	margin-right: 10px;
+}
+#information1 p{
+	float: left;
+	text-align: justify;
+	display: inline-block;
+}
+#main h3{
+	font-family: calibri;
+	font-size: 200%;
+	text-decoration: underline;
+	color: yellow;
+	font-family: cursive;
+}
+#information1 img{
+	float: right;
+	width: 16%;
+	display: inline-block;
+}
+#information2 img{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	margin-right: 10%;
+}
+#information2 ol{
+	color: white;
+}
+#main .displayedExt{
+	margin-left: 10px;
+}	
+footer{
+	background-color: blue;
+	text-align: right;
+}
+#footerEdit{
+	background-color: blue;
+	color:white;
+}
+#footerEdit p{
+	margin-right: 10px;
+}
+#main #tableHead{
+	color: yellow;
+	font-family: calibri;
+	font-size: 140%;
+}
+footer p {
+	margin-right: 10px;
+}
+.comment{	
+	border: 5px white solid;
+	text-align: center;
+}
+#main .text{
+	text-align: justify;
+}
+#main .videos{
+	text-align: center;
+}
+#main #blacklist{
+	color: black;
+}
+#main h2{
+	text-decoration: underline;
+	font-family: calibri;
+	font-size: 190%;
+	color: black;
+}
+.comment div{
+	text-align: left;
+	margin-left: 10px;
+}
+.comment input{
+	border: 2px black solid;	
+}
+.comment h3{
+	margin-left: 10px;
+}
+.errorMessage{
+	color:yellow;
+	text-decoration: bold;
+	text-decoration: underline;
+	font-width: bold;
+	margin-left: 10px;
+}
+#submit{
+	text-align: right;
+	margin-right: 10px;
+}
+}
+@media screen and (min-width: 100px){
+body{
+	background-color: red;
+}
+.topic{
+	background-color: blue;
+	width:75%;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 200%;
+	min-height: 160px;
+}
+#forTable{
+	text-align: center;
+}
+
+table{
+	border: 2px white solid;
+	text-align: center;
+}
+table img{
+	width: 100px;
+}
+#logo{
+	width: 5%;
+}
+#sideLine img{
+	width: 14%;
+	float: right;
+}
+#sideLine2 img{
+	float: left;
+	width: 14%;
+	border-right: 85px red solid;
+}
+#main #headerDistance h3 {
+	padding-left: 2em;
+}
+#leftMenu{
+	
+	display: inline-block;
+	margin-left: 0px;
+}
+#leftMenu iframe{
+	width: 50;
+}
+.topic a{
+	font-size: 60%;
+	color: white;
+	text-align: right;
+}
+#main{
+	width:75%;
+	margin: auto;
+	color: white;
+	font-size: 105%;
+}
+.topic{
+	padding-top: 0.3%;
+}	
+.newTopic {
+	text-align: center;
+}
+.newTopic img{
+	width:35%;
+}
+.newTopic a{
+	color: white;
+}
+.newTopic #contactImg img{
+	width:17%;
+}
+.newTopic #games img{
+	width:50%;
+}
+#main #tribute{
+	text-align: center;
+	font-family: cursive;
+	font-size: 200%;
+}
+.topic p{
+	text-decoration: underline;
+}
+.topic img{
+	width:35%;
+}
+#main p{
+	color: white;
+	font-size: 1.2em;
+}
+.game{
+	text-align: center;
+}
+.contact{
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 2px white solid;
+	font-size: 1.2em;
+}
+.contact div{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-top: 10px;
+}
+.contact #date{
+	padding-left: 20px;
+	margin-left:12.5em;
+	margin-top: 15px;
+}
+.contact #suggestions input{
+	margin-left:5px;
+}
+
+
+#main .div{
+	color: white;
+	text-decoration: bold;
+}
+#main .generalInput{
+	width: 50%;
+	display: block;
+	padding: 10px;
+	margin: auto;
+	border: 2px black solid;
+}
+#main .clickInput{
+	border: 1px black solid;
+	margin-bottom: 7px;
+	margin-right: 10px;
+}
+#information1 p{
+	float: left;
+	text-align: justify;
+	display: inline-block;
+}
+#main h3{
+	font-family: calibri;
+	font-size: 200%;
+	text-decoration: underline;
+	color: yellow;
+	font-family: cursive;
+}
+#information1 img{
+	float: right;
+	width: 16%;
+	display: inline-block;
+}
+#information2 img{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	margin-right: 10%;
+}
+#information2 ol{
+	color: white;
+}
+#main .displayedExt{
+	margin-left: 10px;
+}	
+footer{
+	background-color: blue;
+	text-align: right;
+}
+#footerEdit{
+	background-color: blue;
+	color:white;
+}
+#footerEdit p{
+	margin-right: 10px;
+}
+footer p {
+	margin-right: 10px;
+}
+.comment{	
+	border: 5px white solid;
+	text-align: center;
+}
+#main .text{
+	text-align: justify;
+}
+#main .videos{
+	text-align: center;
+}
+#main #blacklist{
+	color: black;
+}
+#main h2{
+	text-decoration: underline;
+	font-family: calibri;
+	font-size: 190%;
+	color: black;
+}
+.comment div{
+	text-align: left;
+	margin-left: 10px;
+}
+.comment input{
+	border: 2px black solid;	
+}
+.comment h3{
+	margin-left: 10px;
+}
+.errorMessage{
+	color:yellow;
+	text-decoration: bold;
+	text-decoration: underline;
+	font-width: bold;
+	margin-left: 10px;
+}
+#submit{
+	text-align: right;
+	margin-right: 10px;
+} 
+}

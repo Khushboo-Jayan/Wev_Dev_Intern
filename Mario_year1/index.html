@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<img id="logo" src= "Assets\Images\logo.png"/>
+		<link rel="stylesheet" href="site.css">
+		<script src="Assets\Scripts\home.js"></script>
+		<title>A Tribute to Mario</title>
+		<meta name="description" content="Khushboo's Programming gives some really intresting facts about Mario franchise using HTML5 CSS and JavaScript">
+		<meta name="keywords" content="HTML5 CSS JavaScript">
+	</head>
+	<body>
+		<header class="newTopic">
+			<img src="Assets\Images\supermario.png"/>
+		<nav>
+		<a href="index.html">HOME | </a>
+		<a href="about.html"> ABOUT | </a>
+		<a href="games.html"> GAMES | </a>
+		<a href="contact.html"> CONTACT | </a>
+		</nav>
+		</header>
+	<div id="main">
+		
+		<p id="tribute">A TRIBUTE TO MARIO </p>
+		
+		<h3>Concept and creation</h3>
+	
+		<div id="information1" style="display: inline-flex;">
+			<p>
+			Mario[e] is a character in the Mario video game franchise, owned by Nintendo and created by Japanese video game designer Shigeru Miyamoto. Acting as the company's mascot, as well as being the eponymous protagonist of the series, Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center upon rescuing Princess Peach from the Koopa villain Bowser. Mario's fraternal twin brother and sidekick is Luigi.
+			With more than 600 million units sold worldwide, the overall Mario franchise is the best-selling video game franchise of all time.[1][2] Outside of the Super Mario platform series, other Mario genres include the Mario Kart racing series, sports games such as the Mario Tennis and Mario Golf franchises, role-playing games such as Mario & Luigi, Super Mario RPG, and Paper Mario, and educational games such as Mario Is Missing!, Mario's Time Machine, and Mario Teaches Typing. The franchise has branched into several media, including television shows, film, comics, and licensed merchandise. Mario has been voiced by Charles Martinet since 1990.
+			</p>
+			<img src= "Assets\Images\Mario1.png"/>
+		</div>	
+		<h3>RPG games</h3>
+		<p>1996's Super Mario RPG is the first role-playing game within the Mario franchise.[40] Thirteen games have followed since, including:</p>
+		<div id="information2">
+			<img src="Assets\Images\games.jpg"/>
+			<p>
+			<ol>
+			<li>Six in the Paper Mario series:</li>
+			<ul>
+			<li>Paper Mario (Nintendo 64)</li>
+			<li>Paper Mario: The Thousand-Year Door (GameCube)</li>
+			<li>Super Paper Mario (Wii)</li>
+			<li>Paper Mario: Sticker Star (Nintendo 3DS)</li>
+			<li>Paper Mario: Color Splash (Wii U)</li>
+			<li>Paper Mario: The Origami King (Nintendo Switch)</li>
+			</ul>
+			<li>seven in the Mario & Luigi series:</li>
+			<ul>
+			<li>Mario & Luigi: Superstar Saga (Game Boy Advance)</li>
+			<li>Mario & Luigi: Partners in Time (Nintendo DS)</li>
+			<li>Mario & Luigi: Bowser's Inside Story (Nintendo DS)</li>
+			<li>Mario & Luigi: Dream Team (Nintendo 3DS)</li>
+			<li>Mario & Luigi: Paper Jam (Nintendo 3DS)</li>
+			<li>Mario & Luigi: Superstar Saga + Bowser's Minions (Nintendo 3DS)</li>
+			<li>Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey (Nintendo 3DS)</li>
+			</ul>
+			</ol>
+			</p>
+		</div>
+		<div>
+			<h3>Buy our merchendise</h3>
+			<p id="custom"><img id="logo" src= "Assets\Images\custom.jpg"/></p>
+			<div class="contact">
+			<form action = "server-script-url" name="regForm" onsubmit="return( validate() );">
+				<div>
+					<label>
+						<span>Firstname:</span><span class="errorMessage" id="firstname"></span><br>
+						<input class="generalInput" type="text" name="firstname" size="120">
+					</label>
+				</div>
+				<br>
+				
+				<div>
+					<label>
+						<span>Lastname:</span><span class="errorMessage" id="lastname"></span><br>
+						<input class="generalInput" type="text" name="lastname" size="120">
+						</label>
+				</div>
+				<br>
+				
+				<div>
+					<label>
+						<span>Email:</span><span class="errorMessage" id="email"</span><br>
+						<input class="generalInput" type="email" name="email" size="120" required>
+					</label>
+				</div>
+				<br>
+				
+				<div>
+					<label>
+					<span>Size:</span><span class="errorMessage" id="SIZE"</span><br>
+					<select class="generalInput">
+						<option value="extrasmall">XS</option>
+						<option value="small">S</option>
+						<option value="medium">M</option>
+						<option value="large">L</option>
+						<option value="extralarge">XL</option>
+					</select>
+					</label>
+				</div>
+				
+				
+		<p id="submit"><button type = "submit">Submit</button></p>
+			</form>
+			</div>
+		</div>
+		<footer>
+			<p>Site by KHUSHBOO JAYAN &copy: 2020</p>
+		</footer>
+	</div>
+		
+	</body>
+</html>
