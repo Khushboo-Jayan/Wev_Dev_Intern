@@ -12,7 +12,7 @@ If the user does not already has a account then he is been provided a form to cr
 4) HOME.PHP
 This is my home page it will display the same to the guest and the user however, if the guest tries to use any facilities by clicking on navbar item the website will redirect the user to login page. However, if the user is login the home page will change the login and signup buttons to logout button. Moreover, the users name will be displayed and welcomed like 'Hi tommy100' on the home.php page.
 
-5) V IEW.PHP
+5) VIEW.PHP
 This page will display all the books the current user has borrowed from library in a table type. Besides the table also provides a link for the return the books by clicking on unreserve. This page uses the user_name of the current user logged in as a criteria and creates an inner join between books and reservedbooks table in database and retrives the ISBN number for the books reserved. 
 
 
