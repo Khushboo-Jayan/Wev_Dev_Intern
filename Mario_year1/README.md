@@ -24,7 +24,7 @@ c) The css is used in em and % creating a responsive design.<br />
 
 a) First of all the wireframe of all the pages is developed. Following trial and error method. <br />
 b) Secondly, all the resources are gathered such as images, videos, content, sources to embed and are saved in appropriate subfolders in assets.<br />
-c) Thereafter the first main html home page is created all the common CSS rules to be used are segregated hence giving the same class and id name to the respective section.<br /> This allows the developer to reuse CSS code. For example, background colour, same footer, similar font-family, size width.
+c) Thereafter the first main html home page is created all the common CSS rules to be used are segregated hence giving the same class and id name to the respective section. This allows the developer to reuse CSS code. For example, background colour, same footer, similar font-family, size width.<br />
 d) The relative path is given to the images file.<br />
 e) Iframe is downloaded for the resources to be embedded. For instance, in this website, YouTube videos and games are embedded.<br />
 
