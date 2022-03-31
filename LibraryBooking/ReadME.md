@@ -1,4 +1,4 @@
-_**Library Booking**_
+_**Library Booking**_<br /><br />
 Pages used:
 1) DATABASE.PHP
 database. php allows the user to make a connection between our database and php files this helps us store and retrieve data from the database.
