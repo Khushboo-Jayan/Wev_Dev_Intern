@@ -15,4 +15,4 @@ Updating Mario 1 website using bootstrap, and PHP
 <br /><br/><br/>
 ![image](https://user-images.githubusercontent.com/79542266/192111164-9992c995-819e-4c06-8637-79bda4023b83.png)
 <br /><br/><br/>
-Currently working on other pages
+Currently working on other pages. Final verison of website would be deployed online within few months.
